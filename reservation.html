@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Book Your Table</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link href="assests\vendor\fontawesome\css\font-awesome.min.css" rel="stylesheet">
+  <script src="assests/js/validator.min.js"></script>
+  <link href="assests/css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+<div class="reservation">
+
+  <div class="container">
+  <nav class="navbar navbar-default">
+
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="current-parent navbar-brand" href="index.html">Dine</a>
+    </div> <!-- /.navbar-header -->
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="offers.html">Offers</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contactus.html">Contact us</a></li>
+          
+       
+        <li class="current"><a href="reservation.html" class="current button-link">Book a table</a></li>
+      </ul>
+    </div> <!-- /.collapse -->
+
+  </nav>
+</div> <!-- /.container -->
+
+
+  <div class="container">
+
+    <form id="reservationForm" data-toggle="validator" novalidate="true">
+
+      <p class="ftext">Hello my name is <input type="text" class="form-control" id="name1" placeholder="Your name" required="" data-error="NEW ERROR MESSAGE"></p>
+
+      <p class="ftext">I'd like a table at Dine for <input type="text" class="form-control" id="numberpeople" placeholder="2 people" required="" data-error="NEW ERROR MESSAGE" style="width: 200px;"> <input type="text" class="form-control" id="smoke" placeholder="non-smokers" required="" data-error="NEW ERROR MESSAGE" style="width: 290px;"></p>
+
+      <p class="ftext">At <input type="text" class="form-control" id="dinehour" placeholder="Hour" required="" data-error="NEW ERROR MESSAGE" style="width: 160px;"> on <input type="text" class="form-control" id="dinedate" placeholder="Date" required="" data-error="NEW ERROR MESSAGE" style="width: 200px;"></p>
+
+      <p class="ftext">I'll give my contact for the confirmation <input type="email" class="form-control" id="email1" placeholder="your@example.com" required=""></p>
+      <div class="help-block with-errors"></div>
+
+      <button type="submit" id="form-submit" class="btn btn-border disabled" style="pointer-events: all; cursor: pointer;">Book your table</button>
+      <div id="msgSubmit" class="h3 text-center hidden"></div>
+      <div class="clearfix"></div>
+    </form>
+
+    <p class="text">You will receive a message with our feedback<br>
+      If you prefer, you can contact us <a href="contactus.html">here</a></p>
+
+  </div> <!-- /.container -->
+
+</div>
+
+<br>
+<br>
+<footer>
+  <div class="container">
+    <div class="row">
+
+      <div class="col-md-4 col-sm-4 about-footer">
+        <p class="logo">DINE</p>
+        <p class="text">Give us a chance to serve you.</p></p>
+        <ul class="social list-inline list-unstyled">
+          <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+          <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+          <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+          <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+        </ul>
+      </div> <!-- /.col-md-4 -->
+
+      <div class="col-md-4 col-sm-4">
+        <ul class="contact-footer list-unstyled">
+          <li><i class="fa fa-phone"></i> +91 8295 539941</li>
+          <li><i class="fa fa-envelope-o"></i> deveshshukla4@gmail.com</li>
+          <li><i class="fa fa-map-marker"></i> 5th Avenue<br />
+          900-000 New York</li>
+        </ul>
+      </div> <!-- /.col-md-4 -->
+
+      <div class="col-md-4 col-sm-4 reservation-footer">
+        <p><i class="fa fa-clock-o"></i> Monday - Sunday</p>
+        <p class="hour">9AM - 11PM</p>
+        <a href="reservation.html" class="btn btn-border-dark">Make your reservation</a>
+      </div> <!-- /.col-md-4 -->
+
+    </div> <!-- /.row -->
+  </div> <!-- /.container -->
+
+  <nav class="nav-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+          <ul class="list-inline list-unstyled">
+            <li class='current'><a class='current' href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="reservation.html">Reservations</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="offers.html">Offers</a></li>
+            <li><a href="contactus.html">Contact</a></li>
+          </ul>
+        </div> <!-- /.col-md-8 -->
+
+        <div class="col-md-4">
+          <p class="copyright">Copyright &copy; 2016 Dine, All Rights Reserved.</p>
+        </div> <!-- /.col-md-4 -->
+      </div> <!-- /.row -->
+    </div> <!-- /.container -->
+  </nav>
+</footer>
+
+
+</body>
+</html>
+

@@ -1,0 +1,515 @@
+
+/*--------------navbar--------------*/
+
+.navbar-default .navbar-collapse {
+padding-right: 0px;
+margin-right: 0px;
+
+}
+
+.container-fluid {
+padding-right:0px;
+margin-right: 0px;
+
+}
+
+a {
+letter-spacing: 1px;
+padding-left: 8px;
+padding-right: 8px;
+
+}
+
+.navbar-default {
+width: 750px;
+padding-right:0px;
+padding-left: 10px;
+margin-left: auto;
+margin-right: auto;
+top: 80px;
+background-color: transparent;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: white;
+  
+}
+
+ul.navbar-nav {
+letter-spacing:1px;
+margin-left: 10px;
+float: right;
+
+}
+ 
+a.navbar-brand {
+float: left;
+padding-left: 0px;
+margin-left: 0px;
+font-size: 20px;
+font-weight: bold;
+
+}
+
+.navbar-default .navbar-brand {
+ color: white; 
+ font-family:'Lily Script One', cursive;
+}
+
+.navbar-default .navbar-brand:hover{
+ color: white; 
+}
+
+
+a.button-link {
+color:#000;
+padding-left:10px;
+margin-left: 10px;
+background-color: white;
+}
+
+.navbar-default .navbar-nav > li > a.button-link {
+  color: black;
+}
+
+.navbar-default .navbar-nav > li > a.button-link:hover {
+ background-color: #fff; 
+ color: black;
+}
+
+
+input.btn {
+color:#000;
+padding: 20px;
+font-weight: bold;
+background: rgba( 120, 90, 90, 0.3);
+border: 1px solid #344;
+border-radius: 10px;
+margin-left: 20px;
+}
+
+span.slogan {
+font-size: 20px;
+}
+
+
+.parallax .overlay {
+position: absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  
+  color:white;
+}
+/*-------navbar ends here------*/
+
+/*------Footer------*/
+
+footer {
+ background-color: #f6f6f6;
+ padding-top: 90px;
+  
+}
+
+p.logo{
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.fa-phone:before {
+  content:"\f095";
+}
+
+.fa-envelope-o:before {
+  content: "\f003 ";
+}
+
+.fa-map-marker:before {
+ content: "\f041 "; 
+}
+
+.btn-border-dark {
+ border: 2px solid #474747;
+ background-color: transparent;
+ color: black;
+}
+
+.btn-border-dark:hover {
+ color: white;
+ background-color: black;
+}
+
+.nav-footer{
+ margin-top: 80px;
+ padding-top: 26px;
+ padding-bottom: 13px;
+ background-color: #fff;
+}
+/*------------Footer ends here-----------*/
+
+
+/*------------About us -------------*/
+.abody{
+	text-align: center;
+}
+
+/*awards*/
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}
+
+p.text {
+    color: #474747;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.65em;
+}
+
+
+p.text {
+    text-align: left;
+    margin: 20px;
+}
+
+#h{
+text-align:center;
+    font-size: 40px;
+}
+
+#h::first-letter{
+font-size:100px;
+}
+
+.our {
+    text-align: center;
+    margin-bottom: -91px;
+    font-size: 25px;
+    margin-left: 22px;
+    
+}
+
+p.text2 {
+    text-align: center;
+    margin: 0px;
+    font-size: 22px;
+    line-height: 32px;
+}
+
+
+p.title {
+    font-weight: bold;
+    font-size: 26px;
+	
+}
+
+
+.slogan {
+    
+    font-weight: 500px;
+    margin-top: 350px;
+    margin-bottom: -66px;
+    font-size: 25px;
+}
+
+.chef {
+    color: white;
+    font-size: 60px;
+    font-weight: 700;
+    margin-top: 15px;
+    
+}
+.chef::first-letter{
+font-size:100px;
+}
+
+.img5{
+max-width: 100%;
+    height: auto;
+}
+
+/*------------About us ends here-------------*/
+
+/*------------Contact us-------------*/
+
+/*we'll here happy=h5*/
+
+.happy{
+margin-left:-52px;
+font-weight:500px;
+margin-top: 340px;
+font-size: 18px;
+color: black;
+}
+
+/*contact us h1=contact*/
+.contact{
+    color:black;   
+    font-size: 60px;
+    font-weight: 700;
+    margin-top:-60px;
+    
+}
+.contact::first-letter {
+    font-size: 100px;
+}
+
+
+
+div.contact-form{
+padding:20px;
+margin-right:-50px;
+margin-top: -50px;
+background-color:black;
+}
+
+#message{
+background-color:black;
+color:white;
+
+}
+
+#name{
+background-color:black;
+color:white;
+
+}
+
+#email{
+background-color:black;
+color:white;
+
+}
+
+
+.cbody{ 
+  text-align: center;
+
+}
+
+/*------*/
+
+
+/*------------Contact us ends here-------------*/
+
+/*-----------Festival menu-------------*/
+.menu-list {
+color: blue;
+font-size: larger;
+font-weight: bold;
+}
+
+#festm {
+margin-top: 240px;
+font-size: 40px;
+Color: Black;
+font-weight: bold;
+}
+
+.festbody{ 
+  text-align: center;
+
+}
+
+/*------------Festival menu ends here-------------*/
+
+/*------------Index/home-------------*/
+.rest-title  {
+margin-top: 340px;
+font-size: 40px;
+}
+
+.indexbody{ 
+  text-align: center;
+
+}
+
+/*------------Index ends here-------------*/
+
+/*------------Menu-------------*/
+/* nav-tabs*/
+.nav-tabs>li.active>a {
+background-color: transparent;
+color: black;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+background-color: transparent;
+border-color: transparent;
+color: white;
+font-weight: bold;
+}
+
+.nav-tabs>li>a:hover{
+background-color: transparent;
+border-color: transparent;
+}
+
+.nav-tabs>li>a {
+font-weight: bold;
+}
+
+.nav-tabs{
+border-bottom: 3px solid #ddd;
+}
+
+a{
+color: black; 
+}
+
+/* nav-tabs ends here*/
+
+
+/* nav-tabs items*/
+
+p.text1{
+color: white;
+font-size: 20px;
+}
+
+div.tab-pane.fade.in.active {
+color: white;
+}
+/* nav-tabs items ends here*/
+
+/* headers*/
+.menu-head {
+font-weight: bold;
+color: White;
+font-size: 30px;
+}
+
+.pane-title {
+font-weight: bold;
+
+}
+/* header ends here*/
+
+/* price */
+.dtitle{
+float: right;
+}
+
+
+/*------------Menu ends here-------------*/
+
+/*------------Offers-------------*/
+
+<!-- countdown div -->
+
+p#demo{
+margin-top: 5px;
+padding-top: 5px;
+font-size: 60px;
+font-weight: bold;
+
+}
+
+
+h2{
+color: black;
+}
+
+.fest-title{ 
+margin-top: 200px;
+padding-top: 10px;
+padding-bottom: 20px;
+margin-bottom: 10px;
+	font-size: 80px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+}
+
+
+input.button-menu{
+border: 1px solid #474747;
+background-color: transparent;
+color: black;
+margin-top: 20px;
+padding: 20px;
+font-weight: 40px;
+border-radius: 30px;
+
+}
+
+input.button-menu:hover{
+color: black;
+background-color:lightblue;
+}
+
+.obody{
+	text-align: center;
+}
+
+/*------------Offers ends here-------------*/
+
+/*------------Reservation-------------*/
+.reservation {
+    background-color: #303136;
+    padding-bottom: 100px;
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.reservation form {
+    margin-top: 110px;
+}
+
+.reservation form p {
+    color: #636363;
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.ftext {
+    color: #474747;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.65em;
+    margin: 0 0 10px;
+}
+
+.reservation .form-control {
+    background-color: transparent;
+    color: #fff;
+    font-size: 40px;
+    border: none;
+    border-bottom: 1px solid #636363;
+    border-radius: 0;
+    width: auto;
+    height: auto;
+    display: inline-block;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+
+/*------------Reservation ends here-------------*/
